@@ -1,0 +1,135 @@
+.contact-container {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('./contact.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    
+  }
+  
+  
+  .contact-card {
+    width: 95%;
+    max-width: 60%;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-card {
+      flex-direction: row;
+      margin-top: 75px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-info h1 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .mobile {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.call svg {
+  font-size: 1.4rem;
+  color: #f60420;
+  animation: pulse 1.5s infinite;
+}  
+  .contact-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 0px;
+    border: 2px solid #d1d5db;
+    margin-bottom: 10px;
+  }
+  
+  input::placeholder{
+    color: #710aac;
+    font-weight: 550;
+    } 
+    textarea::placeholder{
+      color: #710aac;
+      font-weight: 600;
+      } 
+  input:focus{
+    border-image: linear-gradient(to right,#a8f406, #ef5a03, #d1d357);
+    border-image-slice: 2;
+
+    }
+    textarea:focus{
+      border-image: linear-gradient(to right,#a8f406, #ef5a03, #d1d357);
+      border-image-slice: 1;
+      
+      }
+  
+  .contact-form button {
+    align-self: start;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8a4baf;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-form button i {
+    margin-left: 5px;
+  }
+
+  
+ 
+  
+ 
+  
+  

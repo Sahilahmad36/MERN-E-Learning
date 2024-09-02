@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+}
+  .pulse{
+      background-color: #8a4baf;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      width: 92%;
+      cursor: pointer;
+      transition: background-color .3s ease;
+      margin-top: 10px;
+      margin-left: 10px;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+      }
+      .pulse:hover, .pulse:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+      }
+      
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 #f877ff;
+        }
+      }
+      button {
+        color: #ef6eae;
+        transition: 0.25s;
+      }
+      
+      button:hover,
+      button:focus {
+        border-color: #f9b;
+        color: #fff;
+      }
+      
+      .pulse1{
+        background-color: #8a4baf;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color .3s ease;
+        margin-top: 10px;
+        margin-left: 10px;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+        }
+        .pulse1:hover, .pulse1:focus {
+          animation: pulse 1s;
+          box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+        }
+        
+        @keyframes pulse1 {
+          0% {
+            box-shadow: 0 0 0 0 #f877ff;
+          }
+        }
+        button {
+          color: #ef6eae;
+          transition: 0.25s;
+        }
+        
+        button:hover,
+        button:focus {
+          border-color: #f9b;
+          color: #fff;
+        }

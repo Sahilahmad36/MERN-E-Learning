@@ -1,0 +1,91 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    animation: slide 15s infinite;
+  }
+  
+  .home-content {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+  }
+  .home-content p{
+    color: #8a4baf;
+    font-size: 20px;
+  }
+  
+  .pulse1 {
+    background-color: #8a4baf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slide {
+    0% {
+      background-image: url('https://cdn.pixabay.com/photo/2020/08/25/18/28/workplace-5517744_1280.jpg');
+    }
+    33% {
+      background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg');
+    }
+    66% {
+      background-image: url('https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_1280.jpg');
+    }
+    100% {
+      background-image: url('https://cdn.pixabay.com/photo/2015/12/15/03/56/macbook-1093641_1280.jpg');
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      height: 60vh; 
+    }
+  
+    .home-content {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .pulse1 {
+      padding: 8px 16px;
+      font-size: 1rem;
+    }
+  }
+  
