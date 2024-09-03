@@ -26,6 +26,7 @@ const Header = ({ isAuth }) => {
         <Link to={"/course"} onClick={() => setIsOpen(false)}>Courses</Link>
         <Link to={"/about"} onClick={() => setIsOpen(false)}>About</Link>
         <Link to={"/contact"} onClick={() => setIsOpen(false)}>Contact us</Link>
+        <Link to={"/refund"} onClick={() => setIsOpen(false)}>RefundPolicy</Link>
         {isAuth ? (
           <Link to={"/account"} onClick={() => setIsOpen(false)}>Account</Link>
         ) : (
