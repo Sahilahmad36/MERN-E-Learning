@@ -24,6 +24,7 @@ import AdminUsers from "./admin/Users/AdminUsers";
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import Contact from "./pages/contact/Contact";
+import RefundPolicy from "./pages/refund/RefundPolicy";
 
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
      <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="/course" element={<Courses />} />
+     <Route path="/refund" element={<RefundPolicy />} />
      <Route path="/account" 
      element={isAuth ? <Account user={user} /> : <Login />} 
      />
