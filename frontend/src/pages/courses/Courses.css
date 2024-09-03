@@ -18,4 +18,7 @@
         justify-content: center;
         gap: 30px;
     }
+     .search-container input{
+        width: 50%;
+    }
 }
