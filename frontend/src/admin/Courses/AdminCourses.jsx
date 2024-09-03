@@ -24,6 +24,7 @@ const categories = [
   "10th Class",
   "11th Class",
   "12th Class",
+  "Any Class",
 ];
 
 const AdminCourses = ({ user }) => {
