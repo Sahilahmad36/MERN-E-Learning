@@ -1,0 +1,158 @@
+
+.refund-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .refund-policy-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .refund-policy-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .refund-policy-header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .refund-policy-content section {
+    margin-bottom: 30px;
+  }
+  
+  .refund-policy-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #8a4baf;
+    cursor: pointer;
+  }
+  
+  .refund-policy-content p,
+  .refund-policy-content ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .refund-policy-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  
+  .refund-policy-content li {
+    list-style-type: disc;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  
+  .refund-policy-footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .refund-policy-footer p {
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .toggle-header::after {
+    content: '▼';
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.8em;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-header.open::after {
+    transform: rotate(180deg);
+  }
+  
+
+  @media (max-width: 768px) {
+    .refund-policy-header h1 {
+      font-size: 2em;
+    }
+  
+    .refund-policy-header p {
+      font-size: 1.1em;
+    }
+  
+    .refund-policy-content h2 {
+      font-size: 1.6em;
+    }
+  
+    .refund-policy-content p,
+    .refund-policy-content ul {
+      font-size: 1em;
+    }
+  
+    .refund-button {
+      padding: 8px 16px;
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .refund-policy-container {
+      padding: 15px;
+    }
+  
+    .refund-policy-header h1 {
+      font-size: 1.8em;
+    }
+  
+    .refund-policy-header p {
+      font-size: 1em;
+    }
+  
+    .refund-policy-content h2 {
+      font-size: 1.4em;
+    }
+  
+    .refund-policy-content p,
+    .refund-policy-content ul {
+      font-size: 0.9em;
+    }
+  
+    .refund-policy-footer p {
+      font-size: 1em;
+    }
+  
+    .refund-button {
+      padding: 8px 12px;
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .refund-policy-header h1 {
+      font-size: 2.2em;
+    }
+  
+    .refund-policy-header p {
+      font-size: 1.1em;
+    }
+  
+    .refund-policy-content h2 {
+      font-size: 1.7em;
+    }
+  
+    .refund-policy-content p,
+    .refund-policy-content ul {
+      font-size: 1.05em;
+    }
+  
+    .refund-button {
+      padding: 9px 18px;
+      font-size: 1.05em;
+    }
+  }
+  
