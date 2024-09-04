@@ -1,0 +1,150 @@
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .privacy-policy h1,
+  .privacy-policy h2,
+  .privacy-policy h3 {
+    color: #333;
+  }
+  
+  .privacy-policy h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 2em;
+    margin-bottom: 8px;
+  }
+  
+  .privacy-policy h3 {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+  }
+  
+  
+  .privacy-policy p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  
+  .privacy-policy a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .privacy-policy ul {
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy li {
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-policy th,
+  .privacy-policy td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .privacy-policy th {
+    background-color: #f4f4f4;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .privacy-policy {
+      padding: 15px;
+    }
+  
+    .privacy-policy h1 {
+      font-size: 2.2em;
+    }
+  
+    .privacy-policy h2 {
+      font-size: 1.8em;
+    }
+  
+    .privacy-policy h3 {
+      font-size: 1.4em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-policy {
+      padding: 10px;
+    }
+  
+    .privacy-policy h1 {
+      font-size: 1.8em;
+    }
+  
+    .privacy-policy h2 {
+      font-size: 1.6em;
+    }
+  
+    .privacy-policy h3 {
+      font-size: 1.2em;
+    }
+  
+    .privacy-policy p {
+      margin-bottom: 10px;
+    }
+  
+    .privacy-policy ul {
+      margin-bottom: 10px;
+    }
+  
+    .privacy-policy table {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .privacy-policy {
+      padding: 5px;
+    }
+  
+    .privacy-policy h1 {
+      font-size: 1.6em;
+    }
+  
+    .privacy-policy h2 {
+      font-size: 1.4em;
+    }
+  
+    .privacy-policy h3 {
+      font-size: 1.1em;
+    }
+  
+    .privacy-policy p {
+      margin-bottom: 8px;
+    }
+  
+    .privacy-policy ul {
+      margin-bottom: 8px;
+    }
+  
+    .privacy-policy table {
+      font-size: 0.8em;
+    }
+  }
+  
