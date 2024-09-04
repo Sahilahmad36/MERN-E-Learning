@@ -13,6 +13,14 @@ const Footer = () => {
         Made by ❣️ <a href="">Sahil</a> <br />
         
     </p>
+      <div className="term">
+    <Link to="/service">
+      <p>Terms & service</p>
+    </Link>
+    <Link to="/privacy">
+      <p>Privacy Policy</p>
+    </Link>
+    </div>
     <div className="social-links">
     <a href="https://www.instagram.com/sahil.as_/" target="_blank" rel="noopener noreferrer">
         <FaInstagram size={30} />
