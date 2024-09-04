@@ -48,7 +48,7 @@ function Contact() {
             <div>
               <h1>Get In Touch.</h1>
               <p>
-              108,Zahirpur, Ransoora, Saharanpur
+              108 RL Tower,Zahirpur, Ransoora, Saharanpur
               <br />
               Uttar Pradesh (247554)
               </p>
