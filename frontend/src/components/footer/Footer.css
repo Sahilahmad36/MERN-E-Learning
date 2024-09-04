@@ -38,3 +38,13 @@ footer{
         }
     }
 }
+.term p{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.term {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
