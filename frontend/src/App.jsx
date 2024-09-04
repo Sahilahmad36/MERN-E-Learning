@@ -25,6 +25,8 @@ import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 import Contact from "./pages/contact/Contact";
 import RefundPolicy from "./pages/refund/RefundPolicy";
+import TermsAndConditions from "./pages/term/TermsAndConditions";
+import PrivacyPolicy from "./pages/privacy/PrivacyPolicy";
 
 const App = () => {
 
@@ -42,6 +44,8 @@ const App = () => {
      <Route path="/contact" element={<Contact />} />
      <Route path="/course" element={<Courses />} />
      <Route path="/refund" element={<RefundPolicy />} />
+     <Route path="/service" element={<TermsAndConditions />} />
+     <Route path="/privacy" element={<PrivacyPolicy />} />
      <Route path="/account" 
      element={isAuth ? <Account user={user} /> : <Login />} 
      />
