@@ -10,6 +10,7 @@ const Register = () => {
   const navigate = useNavigate();
   const { btnLoading, registerUser } = UserData();
   const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -20,7 +21,7 @@ const Register = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    await registerUser(name, email, password, navigate);
+    await registerUser(name, email, password, number, navigate);
   };
 
   return (
@@ -33,6 +34,13 @@ const Register = () => {
             placeholder="Enter your name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            required
+          />
+           <input
+            type="text"
+            placeholder="Enter your phone number"
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
             required
           />
           <input
