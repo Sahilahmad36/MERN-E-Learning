@@ -5,7 +5,7 @@ import sendMail, { sendForgotMail } from "../middlewares/sendMail.js";
 import TryCatch from "../middlewares/TryCatch.js";
 
 export const register = TryCatch(async(req,res)=>{
-  const {email,name,password} = req.body
+  const {email,name,password,number} = req.body
 
   let user = await User.findOne({email});
   if(user)
@@ -18,6 +18,7 @@ const hashPassword =  await bcrypt.hash(password, 10)
 
    user = {
     name,
+    number,
     email,
     password: hashPassword
    }
@@ -63,6 +64,7 @@ if(!verify)
     });
    await User.create({
    name: verify.user.name,
+   number: verify.user.number,
    email: verify.user.email,
    password: verify.user.password,
    })
