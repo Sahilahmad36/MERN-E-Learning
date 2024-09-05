@@ -37,7 +37,7 @@ const CourseDescription = ({ user }) => {
       });
 
       const options = {
-        key: "rzp_live_SSI5l9kYc3B4BO	",
+        key: "rzp_live_SSI5l9kYc3B4BO",
         amount: order.amount,
         currency: "INR",
         name: "E-learning",
